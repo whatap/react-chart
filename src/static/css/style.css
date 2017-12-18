@@ -1,0 +1,109 @@
+/* Chart */
+/* d3 */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #cccccc;
+    shape-rendering: crispEdges;
+}
+
+.brush .extent {
+    stroke: none;
+    fill-opacity: 0;
+    shape-rendering: crispEdges;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+.grid path {
+    stroke-width: 0;
+}
+.w3-tooltip {
+    border: 1px solid #aaa;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+/* hit map */
+.w3-hitmap-chart-buttons .btn-group-sm > .btn {
+    padding: 3px 7px;
+    font-size: 7px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* arc equalizer */
+.infiniteCircle {
+    /*   -webkit-animation: rotate 3s linear infinite;
+      animation: rotate 3s linear infinite;
+       -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+      transform-origin: center center;
+    */
+    position: absolute;
+    /* top: 53px; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.infiniteCircle5 {
+    -moz-animation: rotate 1s linear infinite;
+    -ms-animation: rotate 1s linear infinite;
+    -o-animation: rotate 1s linear infinite;
+    -webkit-animation: rotate 1s linear infinite;
+    animation: rotate 1s linear infinite;
+}
+.infiniteCircle4 {
+    -moz-animation: rotate 2s linear infinite;
+    -ms-animation: rotate 2s linear infinite;
+    -o-animation: rotate 2s linear infinite;
+    -webkit-animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite;
+}
+.infiniteCircle3 {
+    -moz-animation: rotate 3s linear infinite;
+    -ms-animation: rotate 3s linear infinite;
+    -o-animation: rotate 3s linear infinite;
+    -webkit-animation: rotate 3s linear infinite;
+    animation: rotate 3s linear infinite;
+}
+.infiniteCircle2 {
+    -moz-animation: rotate 4s linear infinite;
+    -ms-animation: rotate 4s linear infinite;
+    -o-animation: rotate 4s linear infinite;
+    -webkit-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+}
+.infiniteCircle1 {
+    -moz-animation: rotate 5s linear infinite;
+    -ms-animation: rotate 5s linear infinite;
+    -o-animation: rotate 5s linear infinite;
+    -webkit-animation: rotate 5s linear infinite;
+    animation: rotate 5s linear infinite;
+}
+
+.infiniteCircle{
+    pointer-events: none;
+}
+.arc-equalizer-svg{
+    pointer-events: all;
+}
+
+
+/* Main */
+.whatap{
+    padding: 20px;
+    float: left;
+}
+
+
+.whatap .whatap-chart{
+    width:400px;
+    height:200px;
+    margin:20px;
+}
