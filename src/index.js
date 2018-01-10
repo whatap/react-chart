@@ -18,14 +18,6 @@ ReactDOM.render(
     document.getElementById('hitmap1')
 );
 
-ReactDOM.render(
-    <div>
-        <WHitMapChart pcode={document.getElementById('hitmap2').dataset.pcode} />
-    </div>,
-    document.getElementById('hitmap2')
-);
-
-
 
 ReactDOM.render(
     <WArchEqualizerChart />,

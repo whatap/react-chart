@@ -101,6 +101,10 @@
     float: left;
 }
 
+.whatap.whatap-wrapper > div > div{
+    float: left;
+}
+
 
 .whatap .whatap-chart{
     width:400px;
